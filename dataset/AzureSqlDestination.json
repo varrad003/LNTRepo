@@ -1,0 +1,16 @@
+{
+	"name": "AzureSqlDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatasetLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Books"
+		}
+	}
+}
